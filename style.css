@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 700;
+    color: #2a1532;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #c67dff;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+justify-content: center;
+}
+.game{
+height: 60vmin;
+width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 1.7vmin;
+}
+.box{
+height: 18vmin;
+width: 18vmin;
+border-radius: 1rem;
+border: none;
+box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+font-size: 9vmin;
+color:#661a9f ;
+background-color: #faabe3;
+}
+#reset{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #661a9f;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+
+}
+#newBtn{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #661a9f;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+#msg {
+    color: #2a1532;
+    font-size: 5vmin;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+display: none;
+}
